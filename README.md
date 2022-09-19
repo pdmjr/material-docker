@@ -34,7 +34,7 @@ sudo apt update
 ```
 
 ```markdown
-sudo apt -y install docker-ce docker-ce-cli containerd.io
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ## Utilizando o Docker
