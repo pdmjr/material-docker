@@ -15,7 +15,7 @@ sudo apt update
 ```
 
 ```markdown
-sudo apt-get install -y ca-certificates curl gnupg lsb-release
+sudo apt install -y ca-certificates curl gnupg lsb-release
 ```
 
 ```markdown
