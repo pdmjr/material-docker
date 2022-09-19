@@ -15,7 +15,7 @@ sudo apt update
 ```
 
 ```markdown
-sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
+sudo apt-get install -y ca-certificates curl gnupg lsb-release
 ```
 
 ```markdown
