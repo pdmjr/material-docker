@@ -37,6 +37,14 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
+```markdown
+sudo usermod -aG docker $USER
+```
+
+```markdown
+sudo docker info
+```
+
 ## Utilizando o Docker
 
 ```markdown
@@ -53,6 +61,14 @@ sudo docker container ls -a
 
 ```markdown
 sudo docker image ls
+```
+
+```markdown
+docker image inspect hello-world
+```
+
+```markdown
+docker image inspect hello-world | jq '.[].Config.Env'
 ```
 
 ```markdown
